@@ -10,7 +10,7 @@ describe('Array Test', () => {
     })
 
     it('Assert name contain Daniel', () => {
-       assert.isTrue(names.includes('Daniel'))
+       assert.isTrue(names.includes('Rob'))
     })
     it('Assert length of an filtered names', () => {
       let filterdNames=names.filter(n=>n.startsWith('Jack'))
