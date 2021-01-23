@@ -1,5 +1,5 @@
 import chai from 'chai';
-const { expect, Assert } = chai;
+const { expect, assert } = chai;
 
 describe('Array Test', () => {
 
